@@ -1,4 +1,10 @@
-import adapter from '@sveltejs/adapter-auto';
+// import adapter from '@sveltejs/adapter-auto';
+
+//사설 서버를 사용할 경우, node adapter를 사용해야 함.
+import adapter from '@sveltejs/adapter-node';
+
+
+
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */

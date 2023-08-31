@@ -11,7 +11,7 @@ import Footer from '$lib/components/theme/footer/Footer.svelte';
 
 <!--  -->
 
-
+테스트 페이지 입니다.
 
   
 <Footer />
