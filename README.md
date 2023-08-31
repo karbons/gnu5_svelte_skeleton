@@ -14,7 +14,29 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 npm install
 
 ```
+s
 
+## env 파일 생성
+.env 파일은 민감정보를 분리하여 깃에 업로드 하지 않고 따로 관리하여 git 공유시
+민감정보가 노출되지 않도록하는 관리기능입니다.
+api key 값등 외부에 노출되면 안되는 정보를 따로 묶어서 변수로 활용할 수 있게하는 정보관리 기능입니다.
+
+설치폴더에 .env.development을 생성후 아래 내용을 적용한다.
+```
+VITE_API_ENDPOINT ="{엔드포인트사이트 URL}/api/"
+VITE_BASE_ENDPOINT ="http://localhost:3000"
+VITE_SERVER_URL ="{엔드포인트사이트 URL}/"
+VITE_SITE_NAME ="그누보드5"
+VITE_DEBUG_MODE = true 
+VITE_GOOGLE_RECAPTCHA_SITE_KEY = 
+VITE_GOOGLE_RECAPTCHAA_SEC_KEY = 
+```
+
+설치폴더에 .env.production을 생성후 아래 내용을 적용합니다.
+```
+```
+svelte나 js 파일에서 import.meta.env.{env파일에 선언한 키값}
+벨류는 "" 쌍따옴표 또는 쌍따옴표 없이 값만 입력가능하다. 만약 홋따옴표 ''로 기록하면 홋따옴표를 포함에서 출력됩니다.
 ## 개발하기
 
 실시간으로 개발 화면을 보면서 개발할 수 있는 가상서버가 작동됩니다.

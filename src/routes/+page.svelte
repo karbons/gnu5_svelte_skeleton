@@ -1,2 +1,17 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+import Header from '$lib/components/theme/header/Header.svelte';
+import Footer from '$lib/components/theme/footer/Footer.svelte';
+</script>
+<Header />
+
+<!-- hero -->
+
+<!-- fethers -->
+
+
+<!--  -->
+
+
+
+  
+<Footer />
