@@ -35,7 +35,7 @@ jobs:
       uses: webfactory/ssh-agent@v0.5.3
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        
+
    # 원격 서버에서 작업 실행 
    - name : Deploy to server 
      run : |
@@ -44,4 +44,4 @@ jobs:
          git pull &&
          npm install &&
          npm run build &&
-         pm2 restart ./build/indes.js"
+         pm2 restart ./build/index.js"
