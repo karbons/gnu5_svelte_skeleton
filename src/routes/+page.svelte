@@ -21,6 +21,11 @@ ci/cd 테스트를 위해 작성되었습니다.6
 ci/cd 테스트를 위해 작성되었습니다.7
 </pre>
 
+<pre>
+실시간 배포 테스트
+
+</pre>
+    
 <div>
     .env.porducting
     {import.meta.env.VITE_API_ENDPOINT}
