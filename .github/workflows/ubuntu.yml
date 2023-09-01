@@ -36,12 +36,12 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-   # 원격 서버에서 작업 실행 
-   - name : Deploy to server 
-     run : |
-       ssh ubuntu@karbon.kr "
-         cd /home/ubuntu/karbon_v1/front_end &&
-         git pull &&
-         npm install &&
-         npm run build &&
-         pm2 restart ./build/index.js"
+    # 원격 서버에서 작업 실행 
+    - name : Deploy to server 
+      run : |
+        ssh ubuntu@karbon.kr "
+          cd /home/ubuntu/karbon_v1/front_end &&
+          git pull &&
+          npm install &&
+          npm run build &&
+          pm2 restart ./build/index.js"
