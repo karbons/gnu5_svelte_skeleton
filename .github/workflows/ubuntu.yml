@@ -50,6 +50,6 @@ jobs:
           git pull origin master
           npm install
           npm run build
-          pm2 restart ./build/index.js
+          pm2 startOrRestart ecosystem.config.js --env production
 
     

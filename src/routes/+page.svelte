@@ -10,7 +10,7 @@ import Footer from '$lib/components/theme/footer/Footer.svelte';
 
 
 <!--  -->
-
+<pre>
 테스트 페이지 입니다.
 ci/cd 테스트를 위해 작성되었습니다.
 ci/cd 테스트를 위해 작성되었습니다.2
@@ -19,4 +19,10 @@ ci/cd 테스트를 위해 작성되었습니다.4
 ci/cd 테스트를 위해 작성되었습니다.5
 ci/cd 테스트를 위해 작성되었습니다.6
 ci/cd 테스트를 위해 작성되었습니다.7
+</pre>
+
+<div>
+    .env.porducting
+    {import.meta.env.VITE_API_ENDPOINT}
+</div>
 <Footer />
