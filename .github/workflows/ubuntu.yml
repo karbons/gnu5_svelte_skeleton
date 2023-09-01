@@ -46,8 +46,8 @@ jobs:
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 22
         script: |
-          cd /home/ubuntu/karbon_v1/front_end
-          git pull
+          cd /home/ubuntu/karbon_v1/front_end/karbon_builder
+          git pull origin master
           npm install
           npm run build
           pm2 restart ./build/index.js
