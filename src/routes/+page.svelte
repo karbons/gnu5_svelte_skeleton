@@ -15,6 +15,7 @@ import Footer from '$lib/components/theme/footer/Footer.svelte';
 ci/cd 테스트를 위해 작성되었습니다.
 ci/cd 테스트를 위해 작성되었습니다.2
 ci/cd 테스트를 위해 작성되었습니다.3
+ci/cd 테스트를 위해 작성되었습니다.4
 
   
 <Footer />
