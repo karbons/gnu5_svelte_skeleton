@@ -13,6 +13,7 @@ import Footer from '$lib/components/theme/footer/Footer.svelte';
 
 테스트 페이지 입니다.
 ci/cd 테스트를 위해 작성되었습니다.
+ci/cd 테스트를 위해 작성되었습니다.2
 
   
 <Footer />
