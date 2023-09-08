@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
       {
-        name: 'karbon builder',
+        name: 'karbon builder basic',
         script: 'build/index.js',
         instances: 1,
         autorestart: true,
