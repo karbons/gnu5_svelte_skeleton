@@ -22,7 +22,7 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      
+
     - name: Use Node.js 18.x
       uses: actions/setup-node@v3
       with:
@@ -40,7 +40,7 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     # 원격 서버에서 작업 실행 
-    - name: Deploy  MainServer(master)
+    - name: Deploy Karbon builder MainServer(master)
       uses: appleboy/ssh-action@master
       with:
         host: karbon.kr
