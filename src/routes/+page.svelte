@@ -17,7 +17,7 @@ import Footer from '$lib/components/theme/footer/Footer.svelte';
 
 <pre>
 실시간 배포 테스트
-
+실시간 배포 테스트2
 </pre>
     
 <div>
